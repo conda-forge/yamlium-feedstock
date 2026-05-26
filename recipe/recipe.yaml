@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json
 context:
-  version: "0.2.4"
+  version: "0.2.5"
 
 package:
   name: yamlium
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/y/yamlium/yamlium-${{ version }}.tar.gz
-    sha256: 19ca7378d24d0026f711e0d3c594bdd6d2a808d1fd997035c397552fa84c86a7
+    sha256: 4e72b1978d27a069d1eb01300c93239e77b13c26cf14a38b5819e0002f90d9aa
 
 build:
   number: 0
