@@ -27,7 +27,7 @@ tests:
   - python:
       imports:
         - yamlium
-      python_version
+      python_version:
         - ${{ python_min }}.*
         - "*"
       pip_check: true
